@@ -1,7 +1,16 @@
 <!DOCTYPE html>
 <html>
-  <head><title>Wellst's Blog</title></head>
+  <head><title>{{ site.title}}</title></head>
 <body>
   {{ page.content }}
+  <p>Post list</p>
+  
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
 </body>
 </html>
