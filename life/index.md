@@ -3,7 +3,7 @@ layout: index
 title: "日常"
 ---
 
-日常的记录
+日常的记录  
     <ul>
       {% for post in site.categories.life %}
         <li>
