@@ -7,4 +7,6 @@ title: "Wells' BLog 首页"
 ## {{ page.title }} 2   
 
 1. hello
-2. world
+2. world  
+
+{{ site.title }}
