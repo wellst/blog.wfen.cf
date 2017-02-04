@@ -1,6 +1,6 @@
 ---
-layout: index
-title： "日常"
+layout: index 
+title: "日常"
 ---
 
 日常的记录
