@@ -1,10 +1,10 @@
-<!DOCTYPE html>
-<html>
-  <head><title>{{ site.title}}</title></head>
-<body>
+{% include header.html %}
+
+<div class="col-md-2">
+  {% include category.html %}
+</div>
+<div class="col-md-10">
   {{ page.content }}
-  <p>Post list</p>
-  
 <ul>
   {% for post in site.posts %}
     <li>
@@ -12,5 +12,6 @@
     </li>
   {% endfor %}
 </ul>
-</body>
-</html>
+</div>
+
+{% include footer.html %}
