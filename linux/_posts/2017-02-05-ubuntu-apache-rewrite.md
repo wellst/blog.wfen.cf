@@ -21,10 +21,10 @@ ln -s /etc/apache2/mods-available/rewrite.load /etc/apache2/mods-enable/rewrite.
 
 3. .htaccess 文件内容 CI项目  
 ```
-RewriteEngine On
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)$ index.php/$ [L]
+RewriteEngine On  
+RewriteCond %{REQUEST_FILENAME} !-f  
+RewriteCond %{REQUEST_FILENAME} !-d  
+RewriteRule ^(.*)$ index.php/$ [L]  
 ```
 
 4. 以上完成后重启 apache2  
