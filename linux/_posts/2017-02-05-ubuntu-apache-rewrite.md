@@ -4,7 +4,7 @@ layout: linux
 tag: apache2,rewrite
 ---
 
-# 在ubuntu中启用rewrite
+# 在ubuntu中启用rewrite  
 
 1. 修改 /etc/apache2/apache2.conf  中的 AllowOverride None 改为 AllowOverride All  
 ```
