@@ -3,15 +3,15 @@ title: 在ubuntu中apache2启用rewrite
 layout: linux
 tag: apache2,rewrite
 ---
-
 # 在ubuntu中启用rewrite  
 
-1. 修改 /etc/apache2/apache2.conf  中的 AllowOverride None 改为 AllowOverride All  
+
+1. 修改 /etc/apache2/apache2.conf 中的 AllowOverride None 改为 AllowOverride All  
 ```
-<Directory /var/www/>  
-        Options Indexes FollowSymLinks  
-        AllowOverride All  
-        Require all granted  
+<Directory /var/www/>
+        Options Indexes FollowSymLinks
+        AllowOverride All
+        Require all granted
 </Directory>  
 ```
 
