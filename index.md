@@ -2,11 +2,10 @@
 layout: index
 title: "Wells' BLog 首页"
 ---
-# 笔记2   
 
-## {{ page.title }} 2   
+# {{ site.title }}  
 
-1. hello
-2. world  
 
-{{ site.title }}
+{% for page in site.posts %}
+[{{ page.title }}]({{ page.url }})
+{% endfor %}
