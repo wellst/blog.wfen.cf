@@ -4,6 +4,6 @@ title: "Code"
 ---
 # Code 
 
-{% for post in site.categories.life %}  
+{% for post in site.categories.code %}  
 - [{{ post.title }}]({{ post.url }})
 {% endfor %}
