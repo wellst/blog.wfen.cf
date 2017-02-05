@@ -2,10 +2,11 @@
 layout: index 
 title: "日常"
 ---
-
-日常的记录  
-
-      {% for post in site.categories.life %}
-      <a href="{{ post.url }}">{{ post.title }}</a>
-          [{{ post.title }}]({{ post.url }})
-      {% endfor %}
+<h1>日常的记录</h1>  
+<ul>
+{% for post in site.categories.life %}
+<li>
+    <a href="{{ post.url }}">{{ post.title }}</a>
+</li>
+{% endfor %}
+</ul>
