@@ -9,12 +9,9 @@ tag: apache2,rewrite
 
 1. 修改 /etc/apache2/apache2.conf 中的 AllowOverride None 改为 AllowOverride All  
 ```conf
-
-<Directory /var/www/>
         Options Indexes FollowSymLinks
         AllowOverride All
         Require all granted
-</Directory>
 ```
 
 2. 加载rewrite模块  
