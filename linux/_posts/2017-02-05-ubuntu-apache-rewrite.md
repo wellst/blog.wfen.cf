@@ -7,6 +7,7 @@ layout: code
 以下为具体步骤  
 
 1. 修改 /etc/apache2/apache2.conf 中的<Directory /var/www/>里 AllowOverride None 改为 AllowOverride All  
+
 ```python
 Options Indexes FollowSymLinks  
 AllowOverride All  
@@ -14,11 +15,13 @@ Require all granted
 ```
 
 2. 加载rewrite模块  
+
 ```
 ln -s /etc/apache2/mods-available/rewrite.load /etc/apache2/mods-enable/rewrite.load
 ```
 
 3. .htaccess 文件内容 CI项目  
+
 ```python
 RewriteEngine On  
 RewriteCond %{REQUEST_FILENAME} !-f  
@@ -27,6 +30,7 @@ RewriteRule ^(.*)$ index.php/$ [L]
 ```
 
 4. 以上完成后重启 apache2  
+
 ```
 systemctl restart apache2
 ```
