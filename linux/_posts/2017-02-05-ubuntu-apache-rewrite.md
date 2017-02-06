@@ -8,10 +8,12 @@ layout: code
 
 1. 修改 /etc/apache2/apache2.conf 中的<Directory /var/www/>里 AllowOverride None 改为 AllowOverride All  
 
-```python
-Options Indexes FollowSymLinks  
-AllowOverride All  
-Require all granted
+```
+<Directory /var/www/>
+    Options Indexes FollowSymLinks  
+    AllowOverride All  
+    Require all granted
+<Directory>
 ```
 
 2. 加载rewrite模块  
@@ -22,7 +24,7 @@ ln -s /etc/apache2/mods-available/rewrite.load /etc/apache2/mods-enable/rewrite.
 
 3. .htaccess 文件内容 CI项目  
 
-```python
+```
 RewriteEngine On  
 RewriteCond %{REQUEST_FILENAME} !-f  
 RewriteCond %{REQUEST_FILENAME} !-d  
