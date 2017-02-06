@@ -1,7 +1,6 @@
 ---
 title: 在ubuntu中apache2启用rewrite
-layout: linux
-tag: apache2,rewrite
+layout: code
 ---
 # 在ubuntu中启用rewrite  
 
