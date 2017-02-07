@@ -1,6 +1,6 @@
 ---
 title: 在ubuntu中apache2启用rewrite
-layout: code
+layout: linux
 ---
 # 在ubuntu中启用rewrite  
 
