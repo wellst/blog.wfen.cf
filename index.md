@@ -3,10 +3,13 @@ layout: index
 title: "我分"
 ---
 
-# {{ site.title }}  
+<h1> {{ site.title }}</h1>  
 
 {{ site.description }}
 
-{% for page in site.posts %}
-- [{{ page.title }}]({{ page.url }})
+  
+<ul>
+{% for post in site.posts %}  
+<li><a href="{{post.url}}">{{ post.title }}</a></li> 
 {% endfor %}
+</ul>
