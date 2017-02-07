@@ -24,7 +24,7 @@ title: "我分"
         <span aria-hidden="true">&laquo;</span>
       </a></li>
   {% else %}
-    <li><span aria-hidden="true">&laquo;</span></li>
+    <li class="disabled"><span aria-hidden="true">&laquo;</span></li>
   {% endif %}
 
   {% for page in (1..paginator.total_pages) %}
@@ -41,7 +41,7 @@ title: "我分"
   {% if paginator.next_page %}
     <li><a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" aria-label="Next"> <span aria-hidden="true">&raquo;</span></a></li>
   {% else %}
-    <li><span>&raquo;</span></li>
+    <li class="disabled"><span>&raquo;</span></li>
   {% endif %}
   </ul>
 </nav>
