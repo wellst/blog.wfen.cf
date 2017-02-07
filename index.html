@@ -31,7 +31,6 @@ title: "我分"
     {% if page == paginator.page %}
 
       <li class="active"><a href="#">{{ page }}</a></li>
-      <em>{{ page }}</em>
     {% elsif page == 1 %}
       <li><a href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a></li>
     {% else %}
