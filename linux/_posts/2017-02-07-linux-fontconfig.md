@@ -3,10 +3,10 @@ title: linux 字体设置
 layout: linux
 --- 
 
-# linux字体配置  
-
 linux字体配置文件，看着还不错 
 
+
+# linux字体配置  
 位置 ~/.config/fontconfig/fonts.conf  
   
 ```xml

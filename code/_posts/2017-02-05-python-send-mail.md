@@ -2,7 +2,7 @@
 title: python send email
 layout: code
 ---
-用smtplib发送email。
+用smtplib发送email。  
 
 ```python
 import smtplib  

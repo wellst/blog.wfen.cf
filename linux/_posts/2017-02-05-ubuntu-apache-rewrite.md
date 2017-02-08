@@ -2,6 +2,8 @@
 title: 在ubuntu中apache2启用rewrite
 layout: linux
 ---
+CI 启用rewrite后的url好看很多。记录一下在ubuntu中启用的配置。
+
 # 在ubuntu中启用rewrite  
 
 以下为具体步骤  

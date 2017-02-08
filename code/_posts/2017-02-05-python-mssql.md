@@ -2,7 +2,8 @@
 title: python3 import from mssql to pgsql
 layout: code
 ---
-从mssql导出数据，导入pgsql
+从mssql导出数据，导入pgsql  
+
 ```python
 import pymssql
 import psycopg2
