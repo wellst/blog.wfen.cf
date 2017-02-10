@@ -1,3 +1,5 @@
+---
+---
 listpost{
     "life":[
 {% for post in site.categories.linux %}  
