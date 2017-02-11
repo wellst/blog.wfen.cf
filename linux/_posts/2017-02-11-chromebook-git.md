@@ -19,3 +19,9 @@ wget -q -O - https://raw.github.com/skycocker/chromebrew/master/install.sh | bas
 不过用的是dropbox的下载，只好设置好代理后安装。
 
 在安装过程中也已经把git安装上的了，版本比较旧是 1.8.4
+
+
+  
+  
+后来觉得为了个git安装了一堆东西，感觉很不爽
+在github中查看git这个包的依赖，发现只依赖几个包，就把几个包一起下载下来，解压放进/usr/里，这样就安装成功。
