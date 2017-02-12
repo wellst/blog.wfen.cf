@@ -2,9 +2,10 @@
 title: 冬日暖阳下的林百欣广场跑步  
 layout: life
 ---
+阳光灿烂的冬天下午非常适合跑步。
 
 
-# 好天气跑步
+# 冬日暖阳下的林百欣广场跑步  
 
 今天阳光灿烂，虽然气温比较低。娃感冒发烧几天，也跟着没有运动了。下午睡醒，老婆带着娃，我就趁机到林百欣广场跑下步。
 
@@ -14,4 +15,6 @@ layout: life
 跑完着步，晒着太阳的感觉不错。
 
 
-![冬日暖阳下的林百欣广场](http://ol9jy5caj.bkt.clouddn.com/webwxgetmsgimg.jpg）
+![林百欣广场](http://ol9jy5caj.bkt.clouddn.com/webwxgetmsgimg.jpg)
+
+
