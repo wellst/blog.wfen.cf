@@ -43,3 +43,7 @@ wget -q -O - https://raw.github.com/skycocker/chromebrew/master/install.sh | bas
 ```
 sudo cp -R ./usr/local/* /usr/local/
 ```
+
+
+下午再试了一下吧archlinux的git包放到usr/local里。试一下能不能用。
+留意一下吧。希望没什么问题。
