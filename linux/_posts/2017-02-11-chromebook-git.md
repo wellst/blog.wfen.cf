@@ -30,7 +30,6 @@ wget -q -O - https://raw.github.com/skycocker/chromebrew/master/install.sh | bas
 ```
 -rw-r--r-- 1 chronos chronos   697985 Feb 11 23:19 curl-7.32.0-chromeos-x86_64.tar.gz
 -rw-r--r-- 1 chronos chronos   416208 Feb 11 23:19 expat-2.1.0-chromeos-x86_64.tar.gz
--rw-r--r-- 1 chronos chronos        0 Feb 12 11:02 files.txt
 -rw-r--r-- 1 chronos chronos  6719113 Feb 11 23:17 gettext-0.18.3.1-chromeos-x86_64.tar.gz
 -rw-r--r-- 1 chronos chronos 24061547 Feb 11 23:17 git-1.8.4-chromeos-x86_64.tar.gz
 -rw-r--r-- 1 chronos chronos   791884 Feb 11 23:17 libssh2-1.4.3-chromeos-x86_64.tar.gz
