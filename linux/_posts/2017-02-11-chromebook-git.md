@@ -46,4 +46,4 @@ sudo cp -R ./usr/local/* /usr/local/
 
 
 下午再试了一下吧archlinux的git包放到usr/local里。试一下能不能用。
-留意一下吧。希望没什么问题。
+试了一次还是不行，算了，用1.8.4吧，最少还能用。
