@@ -1,6 +1,7 @@
 ---
 title: python send email
-layout: code
+layout: code  
+category: python
 ---
 用smtplib发送email。  
 
