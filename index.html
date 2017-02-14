@@ -2,14 +2,16 @@
 layout: index
 title: "我分"
 ---
-
+<div class="row">
+  <div class="col-md-2 col-xs-4">
+    <img src="/images/indexhead.jpg" alt="image" />
+  </div>
+  <div class="col-md-10 col-xs-8">
+  </div>
+</div>
 <h1> {{ site.title }}</h1>  
-
 {{ site.description }}
-
-  
 <div>
-  
 {% for post in paginator.posts %}  
 <div>
 <h3><a href="{{post.url}}">{{ post.title }}</a></h3>  
@@ -18,11 +20,8 @@ title: "我分"
   {{ post.excerpt }}
 </div>
 {% endfor %}
-
 </div>
-
 <!-- 分页链接 -->
-
 {% if paginator.total_pages > 1 %}
 <nav aria-label="Page navigation">
   <ul class="pagination pagination-sm">
