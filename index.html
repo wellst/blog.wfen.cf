@@ -36,7 +36,7 @@ title: "我分"
           <div >
           <h3><a href="{{post.url}}">{{ post.title }}</a></h3>
           </div>
-            <div>{% for c in page.categories %}<span class="label label-info">c</span>{% endfor %} by Wellst on {{ post.date }}  words:{{ post.content | number_of_words }}</div>
+            <div class="color-grey font-small">by Wellst on {{ post.date | date_to_string  }}  words:{{ post.content | number_of_words }}</div>
             <div class="color-grey">-----------</div>
           <div>
             {{ post.excerpt }}
