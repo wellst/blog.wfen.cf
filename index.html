@@ -11,7 +11,7 @@ title: "我分"
     </div>
     <div class="row" style="margin-top: 3em">
       <div class="col-md-12 col-xs-12">
-        <a href="mailto:{{ site.email }}" class="btn btn-default btn-lg" aria-label="mail to wellst"><p class="glyphicon glyphicon-envelope"></p>eMail</a>
+        <a href="mailto:{{ site.email }}" class="btn btn-default btn-lg" aria-label="mail to wellst"><span class="glyphicon glyphicon-envelope"></span></a>
       </div>
     </div>
     <div class="row" style="margin-top: 3em">
@@ -35,7 +35,7 @@ title: "我分"
           <div >
           <h3><a href="{{post.url}}">{{ post.title }}</a></h3>  
           </div>
-            <div>by Wellst on {{ page.date }}</div>
+            <div>by Wellst on {{ post.date }}</div>
             <hr>
           <div>
             {{ post.excerpt }}
