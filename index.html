@@ -32,9 +32,11 @@ title: "我分"
         {{ site.description }}
         <div>
           {% for post in paginator.posts %}  
-          <div>
+          <div >
           <h3><a href="{{post.url}}">{{ post.title }}</a></h3>  
           </div>
+            <div>by Wellst on {{ page.date }}</div>
+            <hr>
           <div>
             {{ post.excerpt }}
           </div>
