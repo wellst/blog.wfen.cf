@@ -1,7 +1,6 @@
 ---
 title: python 模拟登录
 date: 2017-02-15 11:04
-layout: code
 category: python python2
 ---
 

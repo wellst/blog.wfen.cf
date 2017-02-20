@@ -1,7 +1,7 @@
 ---
 title: Android 按号码转发短信
 date: 2017-02-17 11:07
-category: Android
+category: Android sms
 ---
 
 因日常需转发短信，所以在github上找了一个代码改了一下，用于自动转发。可以按 短信号码\|转发号码1,转发号码2 格式设置自动转发。

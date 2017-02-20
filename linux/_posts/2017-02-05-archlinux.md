@@ -1,6 +1,7 @@
 ---
 title: Archlinux installtion
-layout: linux
+category: linux
+tag: archlinux
 ---
 Archlinux 用着不错，下面是安装的指引链接  
 

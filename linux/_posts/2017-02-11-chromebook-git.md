@@ -1,6 +1,7 @@
 ---
 title: 用chromebook安装git
-layout: linux
+date: 2017-02-11 20:11
+category: chromebook git
 ---
 在Chromebook上安装了Archlinux，合盖不能进入睡眠或挂起模式，不过最近用github的pages，主要是文本编辑，所以想改回ChromeOS，不过用github还是要有git比较好。
 

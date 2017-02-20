@@ -1,6 +1,8 @@
 ---
 title: linux 字体设置
-layout: linux
+date:2017-02-07 23:10
+category: linux
+tag: font
 --- 
 
 linux字体配置文件，看着还不错 

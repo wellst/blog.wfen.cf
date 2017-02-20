@@ -1,6 +1,7 @@
 ---
 title: 冬日暖阳下的林百欣广场跑步  
-layout: life
+date: 2017-02-12 16:00
+category: running
 ---
 阳光灿烂的冬天下午非常适合跑步。
 

@@ -1,6 +1,7 @@
 ---
 title: python3 import from mssql to pgsql
-layout: code
+date: 2017-02-05 22:30
+category: python python3 mssql pgsql
 ---
 从mssql导出数据，导入pgsql  
 
