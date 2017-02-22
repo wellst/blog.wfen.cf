@@ -1,6 +1,6 @@
 ---
 title: linux 字体设置
-date:2017-02-07 23:10
+date: 2017-02-07 23:10
 category: linux
 tag: font
 --- 
