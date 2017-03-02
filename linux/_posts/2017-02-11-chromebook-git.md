@@ -6,7 +6,7 @@ category: chromebook git
 在Chromebook上安装了Archlinux，合盖不能进入睡眠或挂起模式，不过最近用github的pages，主要是文本编辑，所以想改回ChromeOS，不过用github还是要有git比较好。
 
 
-# 在Chromebook 上使用git
+# 在Chromebook上使用git
 
 在网上搜索了一下，发现有个 [chromebrew](https://github.com/skycocker/chromebrew) 的包管理器
 
