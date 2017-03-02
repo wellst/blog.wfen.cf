@@ -1,0 +1,19 @@
+---
+title: postfix
+date: 2017-03-02 11:31
+category: linux
+---
+
+用php发邮件。安装postfix.
+
+# 安装postfix
+
+```
+postdrop: warning: unable to look up public/pickup: No such file or directory
+```
+```
+mkfifo /var/spool/postfix/public/pickup
+```
+```
+systemctl restart postfix
+```
