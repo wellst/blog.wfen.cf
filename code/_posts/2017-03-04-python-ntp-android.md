@@ -24,7 +24,7 @@ os.system('date {} && time {}'.format(_date,_time))
 
 在安卓上试了一下，在c.request那里报错了。查了一下是需要在/etc/services加什么内容指定端口，不过没具体。查了一下c.request是可以直接指定的，查了ntp是123，
 ```
-c = c.request('pool.ntp.org',port=123)
+response = c.request('pool.ntp.org',port=123)
 ```
 
 不过在设置时间时又错了。本来应该这样的，不过可能是手机问题还是不可以。
@@ -45,7 +45,18 @@ _date = time.strftime('%Y-%m-%d',time.gmtime(ts))
 _time = time.strftime('%X',time.gmtime(ts))
 ```
 
-
+最终是
+```python
+import os 
+import time 
+import ntplib 
+c = ntplib.NTPClient() 
+response = c.request('pool.ntp.org',port=123)
+ts = response.tx_time 
+_date = time.strftime('%Y-%m-%d',time.gmtime(ts)) 
+_time = time.strftime('%X',time.gmtime(ts))
+os.system('busybox date -s "{} {}"'.format(_date,_time))
+```
 
 
 
