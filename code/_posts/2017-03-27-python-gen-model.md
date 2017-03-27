@@ -107,5 +107,36 @@ def __init__(self, tblname, rows):
             self.Idfield = self.Namefield
         self.implines = self.imp1 + self.imp2 + self.imp3
 ```
+### 生成model
 
-
+#### model模板
+```python
+    tmpl_model = "package {basepkgname}.model;\n\n\
+{implines}\n\
+public class {Classname}|[\n \
+{fields}\n\
+{setgets}\n\
+|]"
+#因为同事框架用的是return this，所以返回类型Classname
+    tmpl_model_setget = "\
+    public {Classname} set{Field}({fieldtype} {fieldname})|[\n\
+        this.{fieldname}={fieldname};\n\
+        return this;\n\
+    |]\n\
+    public {fieldtype} get{Field}()|[\n\
+        return this.{fieldname};\n\
+    |]\n" 
+```
+fields 生成
+```python
+    def gen_model_get_sets(self):
+        get_set = ''
+        for f in self.Fields:
+            get_set += self.tmpl_model_setget.format(
+                Classname=self.Classname,
+                Field=f['Field'],
+                fieldtype=f['fieldtype'],
+                fieldname=f['fieldname']
+            )
+        return get_set
+```
