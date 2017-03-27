@@ -128,7 +128,14 @@ public class {Classname}|[\n \
     |]\n" 
 ```
 fields 生成
+
 ```python
+    def gen_model_fields(self):
+        fs = ''
+        for f in self.Fields:
+            fs += "\t//"+f["comment"]+"\n";
+            fs += "\tprivate "+f['fieldtype']+" "+f['fieldname']+";\n"
+        return fs
     def gen_model_get_sets(self):
         get_set = ''
         for f in self.Fields:
